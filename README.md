@@ -1,11 +1,11 @@
 # think-multi-app
 
-用于ThinkPHP6+的多应用支持,支持在根目录下创建新目录作为额外应用目录
+在官方think-multi-app包下修改,支持在根目录下创建新目录作为额外应用目录
 
 ## 安装
 
 ~~~
-composer require topthink/think-multi-app
+composer require 490626721/think-multi-app
 ~~~
 
 ## 使用
