@@ -22,7 +22,7 @@ composer require topthink/think-multi-app
 "autoload": {
         "psr-4": {
             "app\\": "app",
-            "appSystem\\": "appSystem"
+            "system\\": "system" // 这里为上面配置的额外应用目录名
         },
         "psr-0": {
             "": "extend/"
