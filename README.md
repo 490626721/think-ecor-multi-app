@@ -9,7 +9,7 @@ composer require topthink/think-multi-app
 ~~~
 
 ## 使用
-
+### 【例如使用根目下system目录作为额外应用目录】
 *   1.在 config/app.php 文件中配置:
 ```php
  // 指定根目录下额外目录为应用目录
@@ -22,7 +22,7 @@ composer require topthink/think-multi-app
 "autoload": {
         "psr-4": {
             "app\\": "app",
-            "appSystem\\": "appSystem"
+            "system\\": "system" // 这里为上面配置的应用目录名称
         },
         "psr-0": {
             "": "extend/"
